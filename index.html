@@ -11,6 +11,21 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+
+  <styles>
+
+    #wdOut{
+    display:flex;
+    justifiy content:flex-end;
+    }
+
+    #wd {
+    text-align: right;
+    border: 1px solid red;
+    background-color: yellow;
+    width: 50%;}
+    </styles>
+  
 </head>
 
 <body>
@@ -45,7 +60,9 @@
   <div style="color: black;" id="catFact"></div>
   
 <!-- Paste this in the body tag -->
- <div class="wd">
+<div id =wdOut>
+
+<div class="wd">
 <div id="place"></div>
 <div id="state"></div>
 <div id="time"></div>
@@ -54,6 +71,7 @@
 <span>ನಿರೀಕ್ಷಿಸಿದ ಸಮಯ:<span id="observedAt"></span></span>
 
  </div>
+  </div>
 
 <!-- main banner -->
 <section class="bgimage" id="home">
